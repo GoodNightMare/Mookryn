@@ -1,0 +1,48 @@
+.birth-title{
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+.birthday-text{
+    letter-spacing: 0.1rem;
+}
+
+.image-birthday{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 10px;
+}
+
+.img-birthday{
+    width: auto;
+    height: 250px;
+}
+
+.picture-birthday{
+    /* width: 100%; */
+    height: 100%;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-birthday{
+    /* text-align: center; */
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    width: 80%;
+    margin: auto;
+}
+
+.song-birthday{
+    color: rgb(255, 119, 142);
+    font-size: 1.2rem;
+}
+.song-birthday:hover{
+    transition: 0.2s ease-in;
+    text-decoration: none;
+    color: red;
+}

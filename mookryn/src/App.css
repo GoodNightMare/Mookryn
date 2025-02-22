@@ -1,0 +1,16 @@
+.App {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  width: 850px;
+  margin: auto;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+hr{
+  margin: 40px 0;
+}
+
+div{
+  margin: 20px 0;
+}

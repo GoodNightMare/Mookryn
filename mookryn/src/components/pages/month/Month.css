@@ -1,0 +1,66 @@
+.month-title{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.month-select{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.month-select div{
+    margin: 0px;
+}
+
+.month-num{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: rgb(205, 205, 205);
+}
+
+.month-content{
+    width: 100%;
+}
+
+.title-monthSelect{
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.month-text{
+    width: 95%;
+    margin: auto;
+    border: 1px solid #959595;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.month-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.month-image{
+    width: 100%;
+    height: 200px;
+}
+
+.month-image img{
+    height: 100%;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.month-image p{
+    text-align: center;
+}
